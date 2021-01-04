@@ -1,7 +1,7 @@
 # Javascritpt
 
--JavaScript: Programando a Orientação a Objetos
--JavaScript: Interfaces e Herança em Orientação a Objetos
+- JavaScript: Programando a Orientação a Objetos
+- JavaScript: Interfaces e Herança em Orientação a Objetos
 
 ## Installation
 
