@@ -1,5 +1,4 @@
 import Account from './Account.js';
-import SavingsAccount from './SavingsAccount.js';
 
 class SalaryAccount extends Account {
   constructor(customer){

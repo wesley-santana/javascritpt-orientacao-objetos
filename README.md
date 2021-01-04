@@ -1,4 +1,4 @@
-# Javascritpt-orientacao-objetos
+# Javascritpt orientacao objetos
 JavaScript: Programando a Orientação a Objetos
 
 ## Installation
