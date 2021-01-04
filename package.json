@@ -1,0 +1,21 @@
+{
+  "name": "javascritpt-orientacao-objetos",
+  "version": "1.0.0",
+  "description": "JavaScript: Programando a Orientação a Objetos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesley-santana/javascritpt-orientacao-objetos.git"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesley-santana/javascritpt-orientacao-objetos/issues"
+  },
+  "homepage": "https://github.com/wesley-santana/javascritpt-orientacao-objetos#readme"
+}
