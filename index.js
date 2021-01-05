@@ -1,11 +1,9 @@
-import { Customer } from './Customer/Customer.js';
-import SalaryAccount from './Accounts/SalaryAccount.js';
-
-const newCustomer = new Customer('João', '49959949494');
+import Manager from './Employees/Manager.js';
+import Auth from './Auth/Auth.js';
 
 
-const account = new SalaryAccount(newCustomer);
-account.cashDeposit(200);
-account.withdrawMoney(100);
-
-console.log(account);
+const manager = new Manager('Wesley', 10000, 3430010110);
+manager.createPassword(123);
+const isAuth = Auth.login(manager, 123);
+console.log(manager.password);
+console.log(isAuth);

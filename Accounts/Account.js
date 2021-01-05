@@ -3,6 +3,7 @@ class Account {
       this._balance = balance;
       this._agency = agency;
       this._customer = customer;
+      
       if(this.constructor === Account){
         throw new Error("Abstract classes can't be instantiated.");
       }
