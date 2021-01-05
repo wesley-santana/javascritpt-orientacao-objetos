@@ -1,30 +1,90 @@
-# Javascritpt
+# JavaScript: Programando a Orientação a Objetos
 
-- JavaScript: Programando a Orientação a Objetos
-- JavaScript: Interfaces e Herança em Orientação a Objetos
+## Repetição de código
+- Introdução
+- Preparando o ambiente
+- Entendendo o problema do cliente
+- Nossa primeira classe
+- Refletindo sobre classes
+- O que aprendemos?
 
-## Installation
+## Adicionando comportamento
+- Projeto da Aula anterior
+- Comportamentos de classes
+- Atributos Privados
+- Proposta de campos Privados
+- Sobre métodos
+- Encapsulamento
+- Métodos com retorno
+- O que aprendemos?
 
-Clone the repository.
+## Modularizando o código
+- Projeto da Aula anterior
+- Modulos JavaScript
+- Organizando código
+- O package.json
+- Composição de classes
+- Tipo de valor e tipo de referência
+- Gerenciamento de memória
+- O que aprendemos?
 
-```bash
-npm start
+## Acessando Atributos privados
+- Projeto da Aula anterior
+- Null e undefined
+- Getters e Setters
+- Encapsulando com assessores
+- O que aprendemos?
 
-```
+## Construtores estáticos
+- Projeto da Aula anterior
+- Construtores
+- Utilizando Construtores
+- Atributos estáticos
+- Tipos de atributos
+- O que aprendemos?
+- Projeto Final do Curso
+- Conclusão
 
-## Usage
+# JavaScript: Interfaces e Herança em Orientação a Objetos
 
-```javascript
-import Account from './Account.js'
+## Herança
+- Projeto da Aula anterior
+- Herança
+- Sintaxe do JS
+- Super e sobrescrita
+- Métodos de mesmo nome
+- Privado e protegido
+- Faça como eu fiz na aula
+- O que aprendemos?
 
-const newCustomer = new Customer('João', '49959949494');
+## Classes abstratas
+- Projeto da Aula anterior
+- Propriedade constructor
+- Classes Abstratas
+- Design de código
+- Métodos abstratos Abstratas
+- Refletindo sobre o tema
+- Faça como eu fiz na aula
+- O que aprendemos?
 
-const account = new SalaryAccount(newCustomer);
-account.cashDeposit(200);
-account.withdrawMoney(100);
+## Sistema interno
+- Projeto da Aula anterior
+- Criando funcionarios
+- Polimorfismo
+- Interfaces
+- Comportamento indefinido
+- Faça como eu fiz na aula
+- O que aprendemos?
 
-console.log(account);
-```
+## Interface e Duck Type
+- Projeto da Aula anterior
+- Verificando propriedades e tipos
+- N objetos e um comportamento
+- Ducky Type
+- Faça como eu fiz na aula
+- O que aprendemos?
+- Projeto Final do Curso
+- Conclusão
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
