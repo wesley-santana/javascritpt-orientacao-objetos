@@ -11,3 +11,5 @@ export class  Customer {
     return this._cpf;
   }
 }
+
+export default Customer;

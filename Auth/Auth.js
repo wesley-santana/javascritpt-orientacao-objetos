@@ -1,6 +1,13 @@
 class Auth {
-  static login(employee, password){
-    return employee.password === password;
+  static login(user, password){
+    if(Auth.isAuthenticate(user)){
+      return user.authenticate(password);
+    }
+    return false;
+  }
+  
+  static isAuthenticate(user){
+    return 'authenticate' in user && user.authenticate instanceof Function;
   }
 }
 

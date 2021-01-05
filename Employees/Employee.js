@@ -14,6 +14,11 @@ class Employee {
   createPassword(password){
     this._password = password;
   }
+
+  authenticate(password){
+    return password === this._password;
+  }
+
 }
 
 export default Employee;
